@@ -45,6 +45,7 @@ if ($e = curl_error($ch)) { // throws if there is any error in api request
         
     }
     
+    echo date('Y-m-d H:i:s');
 }
 
 curl_close($ch); //closes the cURL resource 
