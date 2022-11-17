@@ -45,6 +45,7 @@ if ($e = curl_error($ch)) { // throws if there is any error in api request
         
     }
     
+    
 }
 
 curl_close($ch); //closes the cURL resource 
